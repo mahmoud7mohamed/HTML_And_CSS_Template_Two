@@ -647,14 +647,14 @@ header nav .form i{
 }
 .stats .container .box i{
     display: flex;
-    width: 37px;
-    height: 37px;
+    width: 38px;
+    height: 38px;
     background-color: black;
-    clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
+    clip-path: polygon(50% 0%, 90% 20%, 100% 60%, 75% 100%, 25% 100%, 0% 60%, 10% 20%);
     align-items: center;
     justify-content: center;
     margin: 0 auto 25px;
-    padding-top: 4px;
+    padding-top: 3px;
 }
 .stats .container .box .number{
     font-weight: bold;
