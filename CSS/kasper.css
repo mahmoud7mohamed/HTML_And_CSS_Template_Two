@@ -14,6 +14,26 @@
     padding: 0;
     margin: 0;
 }
+/** Start Scrollbar **/
+::-webkit-scrollbar{
+    width: 20px;
+}
+::-webkit-scrollbar-track{
+    background-color: #f3f2f29f;
+}
+::-webkit-scrollbar-thumb{
+    background-color: rgba(169, 228, 237, 0.81);
+    box-shadow: 0 0 10px #474f4ff2 inset;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover{
+    background-color: #19c9faba;
+    box-shadow: 0 0 10px #040707f2 inset;
+}
 html{
     scroll-behavior: smooth;
 }
@@ -1163,7 +1183,8 @@ header nav .form i{
 .footer .copyright{
     margin-top: 80px;
 }
-.footer .copyright span{
+.footer .copyright a{
+    text-decoration: none;
     font-weight: bold;
     color: var(--main-color);
 } 
